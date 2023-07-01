@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">SummerPractice</string>
+    <string name="app_name">Предсказатель удачи</string>
+    <string name="button">Узнать результат</string>
+    <string name="name">Имя: </string>
+    <string name="height">Рост: </string>
+    <string name="weight">Вес: </string>
+    <string name="age">Возраст: </string>
+    <string name="title">Предсказатель удачи</string>
+    <string name="answer" />
 </resources>
