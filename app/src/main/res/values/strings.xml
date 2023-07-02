@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SummerPractice</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="main">Главная страница</string>
+    <string name="notes">Заметки</string>
+    <string name="gallery">Галерея</string>
+    <string name="button">Нажми меня</string>
 </resources>
