@@ -1,0 +1,17 @@
+package com.example.summerpractice
+
+object CountryRepository {
+    val list: List<Country> = listOf(
+        Country(15, "Россия", "Москва", 146447424, "Государство в Восточной Европе и Северной Азии. Россия — крупнейшее государство в мире", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png"),
+        Country(43, "США", "Вашингтнон", 336343250, "Государство в Северной Америке. Соединённые Штаты — высокоразвитая страна, являющаяся крупнейшей экономикой мира по номинальному ВВП", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png?20150326181342"),
+        Country(32, "Индия", "Нью-Дели", 1425775850, "Государство в Южной Азии. В Конституции Индии определён 21 официальный язык. Занимает первое место в мире по численности населения", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/240px-Flag_of_India.svg.png"),
+        Country(67, "Китай", "Пекин", 1411750000, "Государство в Восточной Азии. Китайская Народная Республика, согласно конституции, — социалистическое государство. Китайская экономика является первой экономикой мира по ВВП (ППС)", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_China_%28alternate%29.svg/1280px-Flag_of_China_%28alternate%29.svg.png"),
+        Country(12, "Франция", "Париж", 68084217, "Трансконтинентальное государство, включающее основную территорию в Западной Европе и ряд заморских регионов и территорий.", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794–1815%2C_1830–1974%2C_2020–present%29.svg/240px-Flag_of_France_%281794–1815%2C_1830–1974%2C_2020–present%29.svg.png"),
+        Country(91, "Австралия", "Канберра", 25978935, "Государство в Южном полушарии, занимающее одноимённый материк, остров Тасмания и несколько других островов", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/240px-Flag_of_Australia_%28converted%29.svg.png"),
+        Country(3, "Мексика", "Мехико", 129150971, "Государство в Северной Америке.  Крупнейшая в мире по населению испаноязычная страна.", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/240px-Flag_of_Mexico.svg.png"),
+        Country(65, "Япония", "Токио", 125309000, "Островное государство в Восточной Азии. Япония — развитая страна с очень высоким уровнем жизни", "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/240px-Flag_of_Japan.svg.png"),
+        Country(88, "Великобритания", "Лондон", 67081000, "Государство у северо-западного побережья континентальной Европы. Великобритания является унитарной парламентской демократией и конституционной монархией", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/240px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"),
+        Country(51, "ЮАР", "Претория", 60604992, "Государство на юге Африки. Страна обладает богатыми минеральными ресурсами, а также является самой экономически развитой в Африке.", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/240px-Flag_of_South_Africa.svg.png"),
+
+        )
+}
