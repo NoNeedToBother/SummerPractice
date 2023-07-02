@@ -66,5 +66,9 @@
         android:id="@+id/snackbarFragment"
         android:name="com.example.summerpractice.SnackbarFragment"
         android:label="fragment_snackbar"
-        tools:layout="@layout/fragment_snackbar" />
+        tools:layout="@layout/fragment_snackbar" >
+        <action
+            android:id="@+id/action_snackbarFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>
