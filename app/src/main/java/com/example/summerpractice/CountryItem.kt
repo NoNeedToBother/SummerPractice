@@ -32,13 +32,6 @@ class CountryItem(
             root.setOnClickListener {
                 onItemClick(country)
             }
-            tvTitle.setTextColor(context.getColor(country.color))
         }
     }
-    private val Country.color
-        get() = if (id > 50) {
-            R.color.black
-        } else {
-            R.color.blue
-        }
 }

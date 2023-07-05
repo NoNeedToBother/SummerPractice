@@ -33,9 +33,5 @@ class CountryAdapter(
         return list.size
     }
 
-    fun updateDataset(newList: List<Country>) {
-        list = newList
-        notifyDataSetChanged()
-    }
 
 }

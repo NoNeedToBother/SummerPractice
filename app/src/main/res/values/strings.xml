@@ -2,4 +2,8 @@
     <string name="app_name">SummerPractice</string>
     <string name="countries">Страны:</string>
     <string name="back_button">Назад</string>
+    <string name="id_tag">ID_TAG</string>
+    <string name="base_capital">Столица: </string>
+    <string name="base_population">Население: </string>
+    <string name="base_desc">Описание: </string>
 </resources>

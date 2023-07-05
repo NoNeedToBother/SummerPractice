@@ -21,31 +21,16 @@ class MainFragment : Fragment(R.layout.fragment_main) {
     }
 
     private fun initAdapter() {
-        val NAME_TAG = "NAME"
-        val CAPITAL_TAG = "CAPITAL"
-        val POPULATION_TAG = "POPULATION"
-        val DESC_TAG = "DESC"
-        val URL_TAG = "URL"
         adapter = CountryAdapter(
             list = CountryRepository.list,
             glide = Glide.with(this),
             onItemClick = { country ->
                 val bundle = Bundle()
-                bundle.putString(NAME_TAG, country.name)
-                bundle.putString(CAPITAL_TAG, country.capital)
-                bundle.putInt(POPULATION_TAG, country.population)
-                bundle.putString(DESC_TAG, country.description)
-                bundle.putString(URL_TAG, country.url)
+                bundle.putInt(getString(R.string.id_tag), country.id)
                 findNavController().navigate(
                     R.id.action_mainFragment_to_infoFragment, bundle)
             }
         )
         binding?.rvCountry?.adapter = adapter
-        //binding?.rvCountry?.layoutManager = GridLayoutManager(requireContext(), 2)
     }
-
-    fun View.showSnackbar(
-        text: String,
-        @BaseTransientBottomBar.Duration duration: Int = Snackbar.LENGTH_LONG
-    ) = Snackbar.make(this, text, duration).show()
 }
